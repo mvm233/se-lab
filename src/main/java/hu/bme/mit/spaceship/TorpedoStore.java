@@ -13,6 +13,7 @@ public class TorpedoStore {
   private double FAILURE_RATE = 0.0; //NOSONAR
 
   private int torpedoCount = 0;
+  // publically declared Random generator, standard code practice
   private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
